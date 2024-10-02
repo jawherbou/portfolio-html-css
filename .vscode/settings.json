@@ -1,0 +1,54 @@
+{
+  // Auto format when saving the file
+  "editor.formatOnSave": true,
+  // Default formatter settings for HTML, CSS, and JavaScript
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  // Enable Emmet abbreviations in HTML and CSS
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "vue": "html"
+  },
+  // Enable auto-closing tags in HTML
+  "html.autoClosingTags": true,
+  // Enable auto renaming of tags in HTML
+  "editor.autoRenameTags": true,
+  // Tab and indentation settings
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  // Set indentation for HTML and CSS
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapLineLength": 120,
+  "html.format.wrapAttributes": "auto",
+  "css.validate": true,
+  "scss.validate": true,
+  // Enable quick suggestions and auto-completion
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  // Live Server settings for development
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.root": "/",
+  "liveServer.settings.CustomBrowser": "chrome",
+  // Exclude certain files/folders
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true
+  }
+}
